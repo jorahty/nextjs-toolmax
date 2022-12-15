@@ -1,15 +1,16 @@
 {
-  "name": "toolmax",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "*",
-    "react": "*",
-    "react-dom": "*",
-    "socket.io": "*",
-    "socket.io-client": "*"
-  }
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  },
+  "license": "MIT"
 }

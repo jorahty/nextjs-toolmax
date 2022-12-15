@@ -18,6 +18,7 @@ const socketInitializer = async (setDolphins, setCarrots) => {
 export default function Home() {
   const [dolphins, setDolphins] = useState(0);
   const [carrots, setCarrots] = useState(0);
+  const [likes, setLikes] = useState(0);
 
   useEffect(() => {
     socketInitializer(setDolphins, setCarrots);
@@ -33,6 +34,9 @@ export default function Home() {
       <h1>{carrots} 🥕</h1>
       <button onClick={handleClick}>
         + 🥕
+      </button>
+      <button onClick={() => setLikes(likes + 1)}>
+        Like ({likes})
       </button>
     </div>
   );

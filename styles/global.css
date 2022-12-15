@@ -1,23 +1,4 @@
 body {
-  background: #222;
-  color: #fff;
-  max-width: 460px;
+  max-width: 200px;
   margin: auto;
-}
-
-button {
-  background: #222;
-  color: #fff;
-  border: 3px solid #888;
-  border-radius: 8px;
-  padding: 20px 40px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #ffffff11;
-}
-
-button, h1 {
-  font-size: 60px;
 }
