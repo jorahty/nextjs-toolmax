@@ -1,7 +1,7 @@
 import { Server } from 'socket.io';
 
 export default function SocketHandler(req, res) {
-  if (res.socket.server.io) return res.end(); // already set up
+  if (res.socket.server.io) return res.end('already set up'); // already set up
 
   // Below is code to set up socket.
   // The code below should only be run once, when server is first pinged.
