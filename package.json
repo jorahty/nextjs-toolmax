@@ -1,0 +1,15 @@
+{
+  "name": "toolmax",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "socket.io": "*",
+    "socket.io-client": "*"
+  }
+}
